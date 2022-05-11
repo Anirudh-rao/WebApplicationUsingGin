@@ -16,7 +16,7 @@ func main() {
 	router.LoadHTMLGlob("templates/*")
 
 	// Initialize the routes
-	intializeRoutes()
+	initializeRoutes()
 
 	// Start serving the application
 	router.Run()
